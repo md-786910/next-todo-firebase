@@ -25,7 +25,7 @@ const Todo = () => {
   //   let uid = localStorage.getItem("token");
   //   let uid = localStorage.getItem("token") == null ? router.push("/") : "";
   let collectionRef;
-
+  let uid;
   useEffect(() => {
     if (JSON.parse(localStorage.getItem("token")) !== null) {
       let uid = JSON.parse(localStorage.getItem("token"));
