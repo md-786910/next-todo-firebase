@@ -28,7 +28,7 @@ const Todo = () => {
   let uid;
   useEffect(() => {
     if (JSON.parse(localStorage.getItem("token")) !== null) {
-      let uid = JSON.parse(localStorage.getItem("token"));
+      uid = JSON.parse(localStorage.getItem("token"));
       collectionRef = collection(database, uid);
     } else {
       collectionRef = collection(database, "testUser");
