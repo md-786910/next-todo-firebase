@@ -1,0 +1,6 @@
+  apiKey: "AIzaSyAIJYUk3pY2Wplh_wgkm3NjuCjBmwyI9T0",
+  authDomain: "todoapp-da7da.firebaseapp.com",
+  projectId: "todoapp-da7da",
+  storageBucket: "todoapp-da7da.appspot.com",
+  messagingSenderId: "329424414271",
+  appId: "1:329424414271:web:52af195a26dcac4bcefa8a",
